@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.500),rgba(0, 0, 0, 0.500)), url(../Assets/Student_Feedback_Back_Img.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 619px;
+}
+.Name{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(to top right ,rgb(179, 48, 113),rgb(41, 41, 161));
+    border-bottom: 2px solid
+}
+.NavBar{
+    text-align: center;
+    background-image: linear-gradient(to bottom left ,rgb(179, 48, 113),rgb(41, 41, 161));
+}
+.NavBar>div{
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+.NavBar>div>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.NavBar>div>a:hover{
+    background-image: linear-gradient(to top right ,rgb(202, 44, 123),rgb(48, 48, 204));
+}
